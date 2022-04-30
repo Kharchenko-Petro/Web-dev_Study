@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+.header {
+  background-color:teal;
+}
+.container {
+  background-color: #eee;
+  max-width: 100%;
+  padding: 0 15px;
+}
+.container__row {
+  display: flex;
+  flex-wrap: wrap;
+}  
+.container__col {
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 2px auto;
+  border: 1px solid grey;
+}
+.container__col_color_darkorange {
+  background-color: darkorange;
+}
+.container__col_color_chartreuse {
+  background-color: chartreuse;
+}
+.container__col_color_wheat {
+  background-color: wheat;
+}
+.container__col_color_cornflowerblue {
+  background-color: cornflowerblue;
+}
+.container__col_size_xs3 {
+  width: calc(25% - 20px);
+}
+.container__col_size_xs4 {
+  width: calc(33.33% - 20px);
+}
+.container__col_size_xs6 {
+  width: calc(50% - 20px);
+}
+.container__col_size_xs12 {
+  width: calc(100% - 20px);
+}
+
+@media screen and (min-width:576px){
+  .container__col_size_sm3 {
+    width: calc(25% - 20px);
+  }
+  .container__col_size_sm4 {
+    width: calc(33.33% - 20px);
+  }
+  .container__col_size_sm6 {
+    width: calc(50% - 20px);
+  }
+  .container__col_size_sm12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width:576px){
+  .container__col_size_sm3 {
+    width: calc(25% - 20px);
+  }
+  .container__col_size_sm4 {
+    width: calc(33.33% - 20px);
+  }
+  .container__col_size_sm6 {
+    width: calc(50% - 20px);
+  }
+  .container__col_size_sm12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width:768px){
+  .container__col_size_md3 {
+    width: calc(25% - 20px);
+  }
+  .container__col_size_md4 {
+    width: calc(33.33% - 20px);
+  }
+  .container__col_size_md6 {
+    width: calc(50% - 20px);
+  }
+  .container__col_size_md12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width:992px){
+  .container__col_size_lg3 {
+    width: calc(25% - 20px);
+  }
+  .container__col_size_lg4 {
+    width: calc(33.33% - 20px);
+  }
+  .container__col_size_lg6 {
+    width: calc(50% - 20px);
+  }
+  .container__col_size_lg12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width:1200px){
+  .container__col_size_xl3 {
+    width: calc(25% - 20px);
+  }
+  .container__col_size_xl4 {
+    width: calc(33.33% - 20px);
+  }
+  .container__col_size_xl6 {
+    width: calc(50% - 20px);
+  }
+  .container__col_size_xl12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width:1400px){
+  .container__col_size_XXL1 {
+    width: calc(8.33% - 20px);
+  }
+  .container__col_size_XXL3 {
+    width: calc(25% - 20px);
+  }
+  .container__col_size_XXL4 {
+    width: calc(33.33% - 20px);
+  }
+  .container__col_size_XXL6 {
+    width: calc(50% - 20px);
+  }
+  .container__col_size_XXL12 {
+    width: 100%;
+  }
+}

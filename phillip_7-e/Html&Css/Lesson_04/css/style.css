@@ -1,0 +1,200 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  background: #201636;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+	font-family: Montserrat;
+  padding: 0;
+  margin: 0;
+}
+/*---------------------------------------------------------------------------*/
+.wrapper {
+  min-height: 100%;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+}
+/*---------------------------------------------------------------------------*/
+._container {
+  width: 1920px;
+  height: 100%;  
+  margin: 0 auto;
+}
+._ibg {
+  position: relative;
+}
+._ibg img {
+  position: absolute;
+  width:100%;
+  height: initial;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+/*---------------------------------------------------------------------------*/
+.page__cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 981px;
+  left: 0;
+}
+.page__main-block {
+  margin: 238px 0px 40px 0px;
+}
+.page__advantages {
+  margin: 40px 0px 80px 0px;
+}
+.page__questions {
+}
+/*---------------------------------------------------------------------------*/
+.main-block {
+  position: relative;
+}
+.main-block__container {
+}
+.main-block__cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.main-block__cover img {
+}
+.main-block__img {
+  display: inline-block;
+}
+.main-block__body {
+  position: relative;
+  z-index: 2;
+}
+.main-block__program {
+  margin: 193px 0px 0px -356px;
+} 
+/*---------------------------------------------------------------------------*/
+.program {
+  display: inline-block;
+  width: 682px;
+  vertical-align: top;
+}
+.program__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 122%;
+  text-transform: uppercase;
+  margin-bottom: 86px;
+}
+.program__description {
+  font-size: 20px;
+  line-height: 120%;
+  margin-bottom: 61px;
+}
+.program__goal {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  color: #211637;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+  padding: 9px 70px;
+  margin-bottom: 45px;
+}
+.program__booking {
+  display: flex;
+  align-items: center;
+}
+/*---------------------------------------------------------------------------*/
+.booking {
+}
+.booking__icon {
+}
+.booking__date {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 122%;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+.booking__line {
+  margin-right: 10px;
+}
+.booking__button {
+  background: #f09f0c;
+  box-shadow: 0px 4px 20px #7d5103;
+  color: #1f1f1f;
+  font-weight: 700;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 39px;
+  width: 300px;
+}
+/*---------------------------------------------------------------------------*/
+.advantages {
+  position: relative;
+  z-index: 2;
+}
+.advantages__container {
+}
+.advantages__body {
+  display: flex;
+  justify-content: space-between;
+  width: 1082px;
+  margin: 0 auto;
+  position: relative;
+}
+.advantages__column {
+  width: 345px;
+}
+.advantages__item {
+  text-align: center;
+}
+.advantages__image {
+  margin-bottom: 28px;
+}
+.advantages__text {
+}
+.advantages__text_bold {
+  font-weight: 700;
+  line-height: 144%;
+}
+.advantages__description {
+}
+/*---------------------------------------------------------------------------*/
+.questions {
+  position: relative;
+}
+.questions__container {
+  
+}
+.questions__title {
+}
+.questions__list-caption {
+}
+.questions__list {
+}
+.questions__item {
+}
+.questions__cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.questions__cover img {
+  width: initial;
+}

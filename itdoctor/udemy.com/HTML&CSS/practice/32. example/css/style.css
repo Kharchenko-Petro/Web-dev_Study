@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Gotham;
+  src: url(../fonts/Gotham-Bold.otf);
+}
+@font-face {
+  font-family: Proxima;
+  src: url(../fonts/proximanova-regular.otf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.team {
+  background-color: #f3f3f3;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+.team__container {
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  text-align: center;
+  width: 900px;
+}
+.team__title {
+  color: #303030;
+  font-family: "Gotham";
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+}
+.team__line {
+  background-color: #303030;
+  height: 2px;
+  margin: 0 auto 30px;
+  width: 184px;
+}
+.team__subtitle {
+  color:#5a5a5a;
+  font-family: Proxima;
+  font-size: 16px;
+  line-height:25px;
+  margin: 0 auto 50px;
+  max-width: 535px;
+}
+.cards {
+  display:flex;
+  justify-content: space-between;
+}
+.cards__item {
+  background-color: #fff;
+  box-shadow: 0px 2px 2px rgba(0,1,1,0.2);
+  /* height: 210px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 210px;
+}
+.card__img {
+  margin-bottom: 10px;
+}
+.cards__name {
+  font-family: Gotham;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  margin: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.cards__post {
+  font-family: Georgia;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 12px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.cards__social {
+}
+.cards__link {
+  color: #7f7f7f;
+  font-size: 20px;
+  margin: 0 10px;
+}

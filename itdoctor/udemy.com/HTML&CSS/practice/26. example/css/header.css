@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.site-header {
+  border: 1px solid red;
+}
+.container {
+  max-width: 100%;
+  width: 1170px;
+  margin: 0 auto;
+}
+.site-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.nav__link {
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #999;
+}
+.nav__link:hover {
+  background-color: orange;
+  color: white;
+  border-radius: 3px;
+}

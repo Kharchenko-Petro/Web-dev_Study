@@ -1,0 +1,254 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*----------------------------------------*/
+td {
+  border: 2px solid #000;
+  text-align: center;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+}
+/*----------------------------------------*/
+._ibg {
+  position: relative;
+}
+._ibg img {
+  position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+/*------PERIODIC-TABLE-------------------*/
+.periodic-table {
+  border-collapse: collapse;
+  width: 1000px;
+  table-layout: fixed;
+}
+/*------TABLE-PART01-------------------*/
+.periodic-table-part01 {
+  height: 400px;
+}
+.periodic-table-part01__title {
+  text-align: center;
+  letter-spacing: 2px;
+}
+.periodic-table-part01__title_word-spacing_10 {
+  word-spacing: 10px;
+}
+/*------NO-ELEMENTS-------------------*/
+.no-element-symbol {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: right;
+  vertical-align: top;
+  padding: 5px;
+}
+/*------S-ELEMENTS-------------------*/
+.s-element {
+  background-color: #D4789F;
+}
+.s-element__content {
+  padding: 0 7px 0 5px;
+}
+.s-element__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.s-element__symbol {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+.s-element__flex-elem {
+}
+.s-element__sequence-number {
+  font-size: 12px;
+  text-align: right;
+}
+.s-element__atomic-mass {
+  font-size: 10px;
+  font-weight: 400;
+}
+.s-element__item-name {
+  font-size: 11px;
+  text-align: left;
+}
+/*------P-ELEMENTS-------------------*/
+.p-element {
+  background-color: #FAF102;
+}
+.p-element__content {
+  padding: 0 7px 0 5px;
+}
+.p-element__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.p-element__symbol {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+.p-element__flex-elem {
+}
+.p-element__sequence-number {
+  font-size: 12px;
+  text-align: left;
+}
+.p-element__atomic-mass {
+  font-size: 10px;
+  font-weight: 400;
+}
+.p-element__item-name {
+  font-size: 11px;
+  text-align: right;
+}
+/*------D-ELEMENTS-------------------*/
+.d-element {
+  background-color: #36bafc;
+}
+.d-element__content {
+  padding: 0 7px 0 5px;
+}
+.d-element__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.d-element__symbol {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+.d-element__flex-elem {
+}
+.d-element__sequence-number {
+  font-size: 12px;
+  text-align: right;
+}
+.d-element__sequence-number_pos_left {
+  text-align: left;
+}
+.d-element__atomic-mass {
+  font-size: 10px;
+  font-weight: 400;
+}
+.d-element__item-name {
+  font-size: 11px;
+  text-align: left;
+}
+.d-element__item-name_pos_right {
+  text-align: right;
+}
+/*------ELEMENTS-TYPE-LEGEND-------------------*/
+.elems-type-legend {
+  font-size: 10px;
+}
+.elems-type-legend > *:not(:last-child) {
+  margin-bottom: 5px;
+}
+.elems-type-legend__container {
+  display: flex;
+  margin: 0 3px;
+}
+.elems-type-legend__background {
+  border: 1px solid black;
+  width: 15px;
+  height: 10px;
+}
+.elems-type-legend__group-symbol { 
+  text-align: left;
+  width: 18px;
+}
+.elems-type-legend__text {
+}
+.elems-type-legend__background_color_s-element {
+  background-color: #D4789F;
+}
+.elems-type-legend__background_color_p-element {
+  background-color: #FAF102;
+}
+.elems-type-legend__background_color_d-element {
+  background-color: #36bafc;
+}
+.elems-type-legend__background_color_f-element {
+  background-color: #fff;
+}
+/*------CELLS-------------------*/
+.cell {
+}
+.cell_noborder_right {
+  border-right: none;
+}
+.cell_noborder_left {
+  border-left: none;
+}
+.cell_width_25px {
+  width: 25px;
+}
+/*------TABLE-PART02-------------------*/
+.periodic-table-part02 {
+  height: 110px;
+}
+.periodic-table-part02_border-collapse_top {
+  margin-top: -2px; 
+}
+.periodic-table-part02__header {
+}
+/*------TABLE02-HEADER-------------------*/
+.table02-header {
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+.table02-header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0 auto;
+}
+.table02-header__symbol {
+}
+.table02-header__title {
+}
+/*------F-ELEMENTS-------------------*/
+.f-element {
+  background-color: #fff;
+}
+.f-element__content {
+  padding: 0 2px;
+}
+.f-element__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: -4px;
+}
+.f-element__symbol {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
+  font-weight: 900;
+}
+.f-element__flex-elem {
+}
+.f-element__sequence-number {
+  font-size: 12px;
+}
+.f-element__atomic-mass {
+  font-size: 10px;
+  font-weight: 400;
+}
+.f-element__item-name {
+  font-size: 10px;
+  text-align: left;
+}
+.f-element__item-name_f-size_smaller {
+  font-size: 9.8px;
+}

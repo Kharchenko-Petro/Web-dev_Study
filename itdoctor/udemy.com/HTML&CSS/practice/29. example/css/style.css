@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+.study-title {
+  text-align: center;
+}
+.block {
+  max-width: 1015px;
+  margin: 0 auto;
+  padding: 64px 0 64px;
+  text-align: center;
+  height: 348px;
+}
+.block__header {
+  color: #575b67;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  max-width: 480px;
+  margin: 0 auto 20px;
+  line-height: 35px;
+}
+.block__subtitle {
+  color: #575b67;
+  max-width: 685px;
+  margin: 0 auto 55px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.block__icon {
+  color: #5eb6c4;
+  font-size: 45px;
+  margin: 0 45px;
+}
+.fa-globe {
+  font-size: 52px;
+}

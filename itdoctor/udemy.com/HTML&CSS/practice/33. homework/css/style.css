@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  background-color: darkgrey;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  line-height: 1; 
+}
+._container {
+  margin: 0 auto;
+  width: 1170px; 
+}
+.advantages {
+  background-color: #fff;
+  padding-top: 106px;
+  padding-bottom: 106px;
+  text-align: center;
+}
+.advantages__container {
+  margin: 0 auto;
+  width: 1118px;
+}
+.advantages__header {
+  margin-bottom: 80px;
+}
+.advantages__title {
+  color: #212121;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.advantages__line {
+  background-color: #ff8b38;
+  height: 2px;
+  margin: 30px auto;
+  width: 64px;
+}
+.advantages__subtitle {
+  color: #86878b;
+  font-size: 14px;
+  line-height: 14px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  /* margin: 0 13px; */
+}
+.card__icon-cont {
+  border: 2px #ff8b38 solid;
+  border-radius: 50%;
+  height: 70px;
+  margin: 0 auto 30px;
+  width:70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa {
+  color:#ff8b38;
+  font-size: 32px;
+}
+.fa-lightbulb-o {
+}
+.card__title {
+  color: #333333;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 22px;
+}
+.card__description {
+  color: #86878b;
+  font-size: 14px;
+  line-height: 20px;
+}
+.fa-keyboard-o {
+}
+.fa-bolt {
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Lesson 01: HW</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:regular,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container _container">
+        <div class="header__body">
+          <a href="#" class="header__logo logo">
+            <img src="./img/logo/logo.svg" alt="Logo">
+          </a>
+          <ul class="header__menu menu">
+            <li class="menu__item">
+              <a href="" class="menu__link">Каталог</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Навчання</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Партнерам</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Акція</a>
+            </li>
+          </ul>
+          <div class="header__icons icons-header">
+            <a href="#" class="icons-header__link">
+              <img src="./img/icons-header/search.svg" class="icons-header__img" alt="Search">
+            </a>
+            <a href="#" class="icons-header__link">
+              <img src="./img/icons-header/account.svg" class="icons-header__img" alt="Account">
+            </a>
+            <a href="#" class="icons-header__link">
+              <img src="./img/icons-header/shopping.svg" class="icons-header__img" alt="Shopping Cart">
+            </a>
+          </div>
+        </div>
+        <nav class="header__navigation navigation-header">
+          <a href="#" class="navigation-header__home">
+            <img src="./img/navigation-header/home.svg" alt="">
+          </a>
+          <a href="#" class="navigation-header__arrow">
+            <img src="./img/navigation-header/arrow.svg" alt="">
+          </a>
+          <a href="#" class="navigation-header__link">
+            Сторінка 1-го рівня
+          </a>
+          <a href="#" class="navigation-header__arrow">
+            <img src="./img/navigation-header/arrow.svg" alt="">
+          </a>
+          <a href="#" class="navigation-header__link">
+            Сторінка 2-го рівня
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main class="page">
+      <div class="page__container _container">
+        <h1 class="page__title">Оформлення замовлення</h1>
+        <form action="#" class="page__form form">
+          <div class="form__body">
+            <aside class="form__aside">              
+              <div class="form__registration registration">
+                <div class="form-block">
+                  <h2 class="registration__title title-form">Ввійти або зареєструватись</h2>
+                  <input type="radio" name="log-reg" id="login" value="login">
+                  <label for="login" class="form-block__radio-label">
+                     Ввійти
+                  </label>
+                  <input type="radio" name="log-reg" id="registration" value="registration" checked>
+                  <label for="registration" class="form-block__radio-label">
+                     Зареєструватись
+                  </label>
+                </div>                
+              </div>
+              <div class="form__personal-data personal-data">
+                <div class="form-block">
+                  <h2 class="personal-data__title title-form">Особисті дані</h2>                
+                  <label for="client-name" class="form-block__text-label">
+                    Ваше ім'я
+                  </label>
+                  <input type="text" name="client-name" id="client-name" class="form-block__text-field" placeholder="Ваше ім'я">
+                  <label for="client-surname" class="form-block__text-label">
+                    Ваше прізвище
+                  </label>
+                  <input type="text" name="client-surname" id="client-surname" class="form-block__text-field" placeholder="Ваше прізвище">
+                  <label for="client-email" class="form-block__text-label">
+                    Електронна адреса
+                  </label>
+                  <input type="email" name="client-email" id="client-email" class="form-block__text-field" placeholder="Електронна адреса">
+                  <label for="client-tel" class="form-block__text-label">
+                    Мобільний номер
+                  </label>
+                  <input type="tel" name="client-tel" id="client-tel" class="form-block__text-field" placeholder="Мобільний номер">
+                  <label for="client-alt-tel" class="form-block__text-label">
+                    Додатковий контакт
+                  </label>
+                  <input type="tel" name="client-alt-tel" id="client-alt-tel" class="form-block__text-field" placeholder="Додатковий контакт">                
+                </div>
+              <div class="form__delivery-data delivery-data">
+                <div class="form-block">
+                  <h2 class="delivery-data__title title-form">
+                    Дані про доставку
+                  </h2>                
+                  <label for="country" class="form-block__text-label">
+                    Країна
+                  </label>
+                  <input type="text" name="country" id="country" class="form-block__text-field" placeholder="Країна">
+                  <label for="city" class="form-block__text-label">
+                    Місто
+                  </label>
+                  <input type="number" name="city" id="city" class="form-block__text-field" placeholder="Місто">
+                  <label for="zip-code" class="form-block__text-label">
+                    Індекс
+                  </label>
+                  <input type="email" name="zip-code" id="zip-code" class="form-block__text-field" placeholder="Індекс">
+                </div>
+              </div>
+            </aside>
+            <div class="form__main">
+              <div class="form__delivery-option delivery-option">
+                <div class="form-block">
+                  <h2 class="delivery-option__title title-form">Спосіб доставки</h2>
+                  <input type="radio" name="delivery-option" id="delivery-option-01" value="delivery-option-01">
+                  <label for="delivery-option-01" class="form-block__radio-label">
+                     Спосіб доставки
+                  </label>
+                  <input type="radio" name="delivery-option" id="delivery-option-02" value="delivery-option-02" checked>
+                  <label for="delivery-option-02" class="form-block__radio-label">
+                     Спосіб доставки
+                  </label>
+                  <input type="radio" name="delivery-option" id="delivery-option-03" value="delivery-option-03">
+                  <label for="delivery-option-03" class="form-block__radio-label">
+                     Спосіб доставки
+                  </label>
+                </div>                
+              </div>
+              <div class="form__pay-option pay-option">
+                <div class="form-block">
+                  <h2 class="pay-option__title title-form">Спосіб оплати</h2>
+                  <input type="radio" name="pay-option" id="pay-option-01" value="pay-option-01">
+                  <label for="pay-option-01" class="form-block__radio-label">
+                     Спосіб оплати
+                  </label>
+                  <input type="radio" name="pay-option" id="pay-option-02" value="pay-option-02" checked>
+                  <label for="pay-option-02" class="form-block__radio-label">
+                     Спосіб оплати
+                  </label>
+                  <input type="radio" name="pay-option" id="pay-option-03" value="pay-option-03">
+                  <label for="pay-option-03" class="form-block__radio-label">
+                     Спосіб оплати
+                  </label>
+                </div>                
+              </div>
+              <div class="form__goods goods">
+                <h2 class="goods__title title-form">Ваша корзина</h2>
+                <div class="goods__body">
+                  
+                </div>
+              </div>
+              <div class="form__pay-option-addition pay-option-addition">
+                <div class="form-block">
+                  <h2 class="pay-option-addition__title title-form">Спосіб оплати</h2>
+                  <label for="addition-comments" class="form-block__text-label">
+                    Додаткові коментарі
+                  </label>
+                  <textarea name="addition-comments" id="addition-comments" class="form-block__addition-comments" placeholder="Додаткові коментарі до замовлення"></textarea>
+                  <input type="checkbox" name="agreement" id="agreement">
+                  <label for="agreement" class="form-block__radio-label addition-comments__agreement-label">
+                    Згода на обробку особистих персональних данних
+                  </label>
+                  <input type="submit" class="form__button 
+                  " value="Перейти до оплати">
+                </div>                
+              </div>
+
+            </div>
+          </div>    
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container _container">
+        <div class="footer__body">
+          <a href="#" class="footer__logo logo">
+            <img src="./img/logo/logo.svg" alt="Logo">
+          </a>
+          <ul class="footer__menu menu">
+            <li class="menu__item">
+              <a href="" class="menu__link">Наша команда</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Контакти</a>
+            </li>        
+          </ul>
+          <div class="footer__social social-footer">
+            <a href="#" class="social-footer__link">
+              <img src="./img/social-footer/facebook.svg" class="social-footer__img" alt="Facebook">
+            </a>
+            <a href="#" class="social-footer__link">
+              <img src="./img/social-footer/instagram.svg" class="social-footer__img" alt="Instagram">
+            </a>
+            <a href="#" class="social-footer__link">
+              <img src="./img/social-footer/youtube.svg" class="social-footer__img" alt="Youtube">
+            </a>
+            <a href="#" class="social-footer__link">
+              <img src="./img/social-footer/linkedin.svg" class="social-footer__img" alt="Linkedin">
+            </a>
+            <a href="#" class="social-footer__link">
+              <img src="./img/social-footer/pinterest.svg" class="social-footer__img" alt="Pinterest">
+            </a>            
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

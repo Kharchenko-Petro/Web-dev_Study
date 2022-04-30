@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.stat {
+  background-color: rgb(16,201,195);
+}
+.container {
+  width: 1279px;
+  margin: 0 auto;
+}
+.stat__container {
+  height: 211px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.stat__item {
+  color:#fff;
+  display: flex;
+  align-items: end;
+  /* background-color: #fff; */
+}
+.stat__icon {
+  font-size: 40px;
+  margin-right: 20px;
+  /* background-color: rgba(255,255,0,0.3); */
+}
+.stat__content {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  /* background-color: rgba(255,0,0,0.3); */
+}
+.stat__count {
+  margin-bottom: 12px;
+}
+.stat__title {
+  font-size: 12px;
+  text-transform: uppercase;
+}
