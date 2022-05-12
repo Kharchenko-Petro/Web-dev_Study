@@ -1,0 +1,96 @@
+//====================================================================================================
+.header {
+	// .header__container
+	&__container {
+	}
+	// .header__top
+	&__top {
+		background-color: $mainDarkColor;
+		color: #fff;
+	}
+}
+.top-header {
+	// .top-header__container
+	&__container {
+		display: flex;
+		align-items: center;
+	}
+	// .top-header__menu
+	&__menu {
+		flex: 1 1 auto;
+		gap: 20px;
+	}
+	// .top-header__user
+	&__user {
+	}
+}
+.menu {
+	// .menu__body
+	&__body {
+	}
+	// .menu__list
+	&__list {
+		display: flex;
+		
+	}
+	// .menu__item
+	&__item {
+	}
+	// .menu__link
+	&__link {
+		font-size: rem(16);
+	}
+}
+.icon-menu {
+}
+
+//====================================================================================================
+
+//Burger
+.icon-menu {
+	display: none;
+	@media (max-width: $mobile) {
+		display: block;
+		position: relative;
+		width: rem(30);
+		height: rem(18);
+		cursor: pointer;
+		z-index: 5;
+		span,
+		&::before,
+		&::after {
+			content: "";
+			transition: all 0.3s ease 0s;
+			right: 0;
+			position: absolute;
+			width: 100%;
+			height: rem(2);
+			background-color: #fff;
+		}
+		&::before {
+			top: 0;
+		}
+		&::after {
+			bottom: 0;
+		}
+		span {
+			top: calc(50% - rem(1));
+		}
+		.menu-open & {
+			span {
+				width: 0;
+			}
+			&::before,
+			&::after {
+			}
+			&::before {
+				top: calc(50% - rem(1));
+				transform: rotate(-45deg);
+			}
+			&::after {
+				bottom: calc(50% - rem(1));
+				transform: rotate(45deg);
+			}
+		}
+	}
+}
